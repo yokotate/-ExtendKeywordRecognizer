@@ -63,7 +63,7 @@ namespace EKR.Core
         {
             foreach (var checkWord in _keywordSetNext)
             {
-                if (_inputVoiceText == (string) checkWord["SpellWord"])
+                if (_inputVoiceText == (string) checkWord["SpellWordKana"])
                 {
                     // 戻り値作成
                     SpellWord result = new SpellWord()
