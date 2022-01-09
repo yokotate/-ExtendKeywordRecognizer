@@ -355,8 +355,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7756069098651351675, guid: ccde9fe448165f4408eda6f17075fa42, type: 3}
+      propertyPath: SpellWordObject
+      value: 
+      objectReference: {fileID: 11400000, guid: 0c54039d71b9bc2489b4e432c590aea2, type: 2}
+    - target: {fileID: 7756069098651351675, guid: ccde9fe448165f4408eda6f17075fa42, type: 3}
       propertyPath: keywords.Array.size
-      value: 16
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 7756069098651351675, guid: ccde9fe448165f4408eda6f17075fa42, type: 3}
       propertyPath: keywords.Array.data[0]
@@ -424,7 +428,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7756069098651351675, guid: ccde9fe448165f4408eda6f17075fa42, type: 3}
       propertyPath: keywords.Array.data[16]
-      value: "\u30C6\u30B9\u30C8"
+      value: "\u30C6\u30A4\u30B9\u30C8"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ccde9fe448165f4408eda6f17075fa42, type: 3}

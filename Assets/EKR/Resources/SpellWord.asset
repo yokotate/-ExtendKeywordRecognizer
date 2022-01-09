@@ -13,107 +13,107 @@ MonoBehaviour:
   m_Name: SpellWord
   m_EditorClassIdentifier: 
   SpellWordList:
-  - spellWordID: 9999999
+  - spellWordID: 999
     spellWord: "\u30E1\u30CB\u30E5\u30FC"
-    spellWordKana: "\u3081\u306B\u3085\u30FC"
+    spellWordKana: "\u30E1\u30CB\u30E5\u30FC"
     functionName: 
     isHead: 1
     isEnd: 0
     nextWordId: 2
   - spellWordID: 1
     spellWord: "\u30E1\u30CB\u30E5\u30FC"
-    spellWordKana: 
-    functionName: 
+    spellWordKana: "\u30E1\u30CB\u30E5\u30FC"
+    functionName: "\u3042"
     isHead: 1
     isEnd: 0
     nextWordId: 3
   - spellWordID: 2
     spellWord: "\u30AA\u30FC\u30D7\u30F3"
-    spellWordKana: 
+    spellWordKana: "\u30AA\u30FC\u30D7\u30F3"
     functionName: MenuOpen
     isHead: 0
     isEnd: 1
     nextWordId: 0
   - spellWordID: 3
     spellWord: "\u30AF\u30ED\u30FC\u30BA"
-    spellWordKana: 
+    spellWordKana: "\u30AF\u30ED\u30FC\u30BA"
     functionName: MenuClose
     isHead: 0
     isEnd: 1
     nextWordId: 0
   - spellWordID: 4
     spellWord: "\u30C6\u30B9\u30C8"
-    spellWordKana: 
+    spellWordKana: "\u30C6\u30B9\u30C8"
     functionName: 
     isHead: 1
     isEnd: 1
     nextWordId: 0
   - spellWordID: 5
     spellWord: "\u305F\u305D\u304C\u308C\u3088\u308A\u3082\u304F\u3089\u304D\u3082\u306E"
-    spellWordKana: 
+    spellWordKana: "\u305F\u305D\u304C\u308C\u3088\u308A\u3082\u304F\u3089\u304D\u3082\u306E"
     functionName: 
     isHead: 1
     isEnd: 0
     nextWordId: 6
   - spellWordID: 6
     spellWord: "\u3061\u306E\u306A\u304C\u308C\u3088\u308A\u3042\u304B\u304D\u3082\u306E"
-    spellWordKana: 
+    spellWordKana: "\u3061\u306E\u306A\u304C\u308C\u3088\u308A\u3042\u304B\u304D\u3082\u306E"
     functionName: 
     isHead: 0
     isEnd: 0
     nextWordId: 7
   - spellWordID: 7
     spellWord: "\u3068\u304D\u306E\u306A\u304C\u308C\u306B\u3046\u305A\u3082\u308C\u3057"
-    spellWordKana: 
+    spellWordKana: "\u3068\u304D\u306E\u306A\u304C\u308C\u306B\u3046\u305A\u3082\u308C\u3057"
     functionName: 
     isHead: 0
     isEnd: 0
     nextWordId: 8
   - spellWordID: 8
     spellWord: "\u3044\u3060\u3044\u306A\u306A\u3093\u3058\u306E\u306A\u306B\u304A\u3044\u3066"
-    spellWordKana: 
+    spellWordKana: "\u3044\u3060\u3044\u306A\u306A\u3093\u3058\u306E\u306A\u306B\u304A\u3044\u3066"
     functionName: 
     isHead: 0
     isEnd: 0
     nextWordId: 9
   - spellWordID: 9
     spellWord: "\u308F\u308C\u3053\u3053\u306B\u3084\u307F\u306B\u3061\u304B\u308F\u3093"
-    spellWordKana: 
+    spellWordKana: "\u308F\u308C\u3053\u3053\u306B\u3084\u307F\u306B\u3061\u304B\u308F\u3093"
     functionName: 
     isHead: 0
     isEnd: 0
     nextWordId: 10
   - spellWordID: 10
     spellWord: "\u308F\u308C\u3089\u304C\u307E\u3048\u306B\u305F\u3061\u3075\u3055\u304C\u308A\u3057"
-    spellWordKana: 
+    spellWordKana: "\u308F\u308C\u3089\u304C\u307E\u3048\u306B\u305F\u3061\u3075\u3055\u304C\u308A\u3057"
     functionName: 
     isHead: 0
     isEnd: 0
     nextWordId: 11
   - spellWordID: 11
     spellWord: "\u3059\u3079\u3066\u306E\u304A\u308D\u304B\u306A\u308B\u3082\u306E\u306B"
-    spellWordKana: 
+    spellWordKana: "\u3059\u3079\u3066\u306E\u304A\u308D\u304B\u306A\u308B\u3082\u306E\u306B"
     functionName: 
     isHead: 0
     isEnd: 0
     nextWordId: 12
   - spellWordID: 12
     spellWord: "\u308F\u308C\u3068\u306A\u3093\u3058\u304C\u3061\u304B\u3089\u3082\u3066"
-    spellWordKana: 
+    spellWordKana: "\u308F\u308C\u3068\u306A\u3093\u3058\u304C\u3061\u304B\u3089\u3082\u3066"
     functionName: 
     isHead: 0
     isEnd: 0
     nextWordId: 13
   - spellWordID: 13
     spellWord: "\u3072\u3068\u3057\u304F\u307B\u308D\u3073\u3092\u3042\u305F\u3048\u3093\u3053\u3068\u3092"
-    spellWordKana: 
+    spellWordKana: "\u3072\u3068\u3057\u304F\u307B\u308D\u3073\u3092\u3042\u305F\u3048\u3093\u3053\u3068\u3092"
     functionName: 
     isHead: 0
     isEnd: 0
     nextWordId: 14
   - spellWordID: 14
     spellWord: "\u30C9\u30E9\u30B0\u30B9\u30EC\u30A4\u30D6"
-    spellWordKana: 
+    spellWordKana: "\u30C9\u30E9\u30B0\u30B9\u30EC\u30A4\u30D6"
     functionName: 
     isHead: 0
     isEnd: 1

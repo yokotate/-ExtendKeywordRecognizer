@@ -12,11 +12,13 @@ namespace EKR.Core.Engine
         [SerializeField]private string[] keywords;
         private KeywordRecognizer _recognizer;
         private VoiceReader _voiceReader;
+        public SpellWordObject SpellWordObject;
 
         void Awake()
         {
             _recognizer = new KeywordRecognizer(keywords);
             _voiceReader = new VoiceReader();
+            _voiceReader.ReadSpellWordObject(SpellWordObject);
         }
 
         private void OnEnable()

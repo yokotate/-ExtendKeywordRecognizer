@@ -26,7 +26,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0fc9e08c-b9b6-422a-b55f-c49a48f3ef6c" name="デフォルト変更リスト" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/EKR/Editor/SpellWordGraphEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EKR/Editor/SpellWordGraphView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EKR/Editor/StartNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ExtendKeywordRecognizer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ExtendKeywordRecognizer/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ExtendKeywordRecognizer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ExtendKeywordRecognizer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EKR/Resources/SpellWord.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EKR/Resources/SpellWord.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EKR/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EKR/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EKR/Scripts/SimpleKeywordRecognizer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EKR/Scripts/SimpleKeywordRecognizer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EKR/Scripts/VoiceReader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EKR/Scripts/VoiceReader.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +52,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Unity/Projects/ExtendKeywordRecognizer/Assets/Scripts/VoiceReader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EKR/Scripts/SpellWordObject.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -56,6 +64,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SimpleKeywordRecognizer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/VoiceReader.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SpellWordObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/EKR/Editor/StartNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/EKR/Editor/SpellWordGraphView.cs" />
+        <option value="$PROJECT_DIR$/Assets/EKR/Editor/SpellWordGraphEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/EKR/Scripts/SimpleKeywordRecognizer.cs" />
+        <option value="$PROJECT_DIR$/Assets/EKR/Scripts/VoiceReader.cs" />
       </list>
     </option>
   </component>
@@ -102,6 +115,7 @@
       <workItem from="1641615401826" duration="5801000" />
       <workItem from="1641643613821" duration="6523000" />
       <workItem from="1641720835922" duration="885000" />
+      <workItem from="1641726166845" duration="4948000" />
     </task>
     <task id="LOCAL-00001" summary="SpellWordクラスの作成&#10;SpellWordObject:ScriptableObjectクラスの作成&#10;VoiceReader.csを追加&#10;・入力されたテキストを処理してSpellWordクラスを返す&#10;SimpleKeywordRecognizer.prefabを追加&#10;・VoiceReaderの実装例">
       <created>1641659593042</created>
@@ -117,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641720957124</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="カスタムパッケージにするために階層（EKR）を一つ追加">
+      <created>1641726206227</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1641726206227</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
@@ -150,16 +171,17 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="SpellWordクラスの作成&#10;SpellWordObject:ScriptableObjectクラスの作成&#10;VoiceReader.csを追加&#10;・入力されたテキストを処理してSpellWordクラスを返す&#10;SimpleKeywordRecognizer.prefabを追加&#10;・VoiceReaderの実装例" />
     <MESSAGE value="判定をSpellWordからSpellWordKanaに変更" />
-    <option name="LAST_COMMIT_MESSAGE" value="判定をSpellWordからSpellWordKanaに変更" />
+    <MESSAGE value="カスタムパッケージにするために階層（EKR）を一つ追加" />
+    <option name="LAST_COMMIT_MESSAGE" value="カスタムパッケージにするために階層（EKR）を一つ追加" />
   </component>
   <component name="WindowStateProjectService">
     <state x="901" y="271" key="RiderGenerateDialog" timestamp="1641615588900">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
     <state x="901" y="271" key="RiderGenerateDialog/0.0.2194.1194@0.0.2194.1194" timestamp="1641615588900" />
-    <state x="690" y="317" key="Vcs.Push.Dialog.v2" timestamp="1641722052309">
+    <state x="690" y="317" key="Vcs.Push.Dialog.v2" timestamp="1641726212623">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state x="690" y="317" key="Vcs.Push.Dialog.v2/0.0.2194.1194@0.0.2194.1194" timestamp="1641722052309" />
+    <state x="690" y="317" key="Vcs.Push.Dialog.v2/0.0.2194.1194@0.0.2194.1194" timestamp="1641726212623" />
   </component>
 </project>

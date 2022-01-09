@@ -17,11 +17,11 @@ namespace EKR.Core
         }
         
         private DataTable _keywordSetAll = new DataTable("Spel Word Table");
-        private readonly DataRow[] _keywordSetHead;
+        private DataRow[] _keywordSetHead;
         private DataRow[] _keywordSetNext;
 
         // ScriptableObjectの読み込み
-        public VoiceReader()
+        public void ReadSpellWordObject(SpellWordObject spellWordObject)
         {
             _keywordSetAll.Columns.Add("SpellWordID");
             _keywordSetAll.Columns.Add("SpellWord");
@@ -30,9 +30,8 @@ namespace EKR.Core
             _keywordSetAll.Columns.Add("isHead");
             _keywordSetAll.Columns.Add("isEnd");
             _keywordSetAll.Columns.Add("NextWordId");
-
-            var spellWord = Resources.Load<SpellWordObject>("SpellWord");
-            foreach (var val in spellWord.SpellWordList)
+            
+            foreach (var val in spellWordObject.SpellWordList)
             {
                 _keywordSetAll.Rows.Add(val.spellWordID, 
                     val.spellWord,
@@ -53,7 +52,7 @@ namespace EKR.Core
                 return null;
             _inputVoiceText = inputVoiceText;
             InputVoiceHistory(inputVoiceText);
-            var resultSpellWord = InputVoiceTextCheck();
+            SpellWord resultSpellWord = InputVoiceTextCheck();
             
             return resultSpellWord;
         }
@@ -68,13 +67,13 @@ namespace EKR.Core
                     // 戻り値作成
                     SpellWord result = new SpellWord()
                     {
-                        spellWordID = (int) checkWord["SpellWordID"],
+                        spellWordID = int.Parse(checkWord["SpellWordID"].ToString()),
                         spellWord = (string) checkWord["SpellWord"],
                         spellWordKana = (string) checkWord["SpellWordKana"],
                         functionName = (string) checkWord["FunctionName"],
-                        isHead = (bool) checkWord["isHead"],
-                        isEnd = (bool) checkWord["isEnd"],
-                        nextWordId = (int) checkWord["NextWordId"]
+                        isHead = Convert.ToBoolean(checkWord["isHead"].ToString()),
+                        isEnd = Convert.ToBoolean(checkWord["isEnd"].ToString()),
+                        nextWordId = int.Parse(checkWord["NextWordId"].ToString())
                     };
 
                     // 呪文終了処理
